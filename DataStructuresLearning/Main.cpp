@@ -12,6 +12,7 @@ int main()
 	int option;
 	int nrOfelements;
 	vector<int> Nums;
+	cout<<"ILISOI"
 	cout << "------------------------------------" << endl;
 	cout << "---------------MENU-----------------" << endl;
 	cout << "1. Enter Numbers Manually" << endl;
