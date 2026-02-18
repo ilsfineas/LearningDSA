@@ -56,6 +56,10 @@ void bubble_sort(vector<int>& Nums)
 			if (Nums[j] > Nums[j + 1])
 			{
 				swap(Nums[j], Nums[j + 1]);
+				for (int x : Nums) {
+					cout << x << " ";
+				}
+				cout << endl;
 			}
 		}
 	}
